@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './cards-view.css'
 import ShopCard from './ShopCard'
 
 function CardsView({ items }) {

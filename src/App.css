@@ -1,0 +1,124 @@
+.icon-switch{
+    margin-bottom: 12px;
+}
+
+.icon-switch button {
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    padding: 0;
+    border: none;
+    background: #ffffff;
+    cursor: pointer;
+    outline: 0;
+}
+
+.icon-switch button i{
+    font-size: 4em;
+}
+
+.store{
+    margin: 5% 10%;
+}
+
+.price{
+    line-height: 24px;
+    color: #c00707;
+}
+
+
+.cart{
+    display: block;
+    border: 1px solid #c00707;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.cart span{
+    display: block;
+    margin: 4px 8px;
+    color: #c00707;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price{
+    color: #c00707;
+}
+
+.name{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.cards-view{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shop-card{
+    height: 240px;
+    width: 240px;
+    margin: 0 0 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+    background-position: center center;
+    background-size: contain;
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.shop-card__footer{
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shop-card .name{
+    margin-bottom: 1em;
+}
+
+table.list-view{
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+}
+
+table.list-view tr td {
+    width: auto;
+    margin: 0;
+
+    background-color: #F5F5F5;
+    border: 0;
+    border-bottom: 5px solid #ffffff;
+
+    text-align: center;
+}
+
+table.list-view tr td:first-child{
+    padding-left: 1em;
+}
+
+table.list-view tr td:last-child{
+    padding-right: 1em;
+}
+
+table.list-view tr td:first-child, table.list-view tr td:last-child {
+    width: 1%;
+    white-space: nowrap;
+}
+
+.shop-item{
+    font-family: 'Roboto', sans-serif;
+}
+
+.shop-item img{
+    height: 64px;
+}

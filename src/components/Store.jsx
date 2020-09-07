@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import IconSwitch from './IconSwitch';
-import ListView from './ListView/ListView';
-import CardsView from './CardsView/CardsView';
-import './store.css'
+import ListView from './ListView';
+import CardsView from './CardsView';
 
 export function Store() {
 

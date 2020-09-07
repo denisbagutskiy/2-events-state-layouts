@@ -1,11 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ShopItem from './ShopItem'
-import './list-view.css'
 
 function ListView({ items }) {
     return (
-        <table>
+        <table className="list-view">
             <tbody>
                 {items.map((item,i) => 
                     <ShopItem key={i} item={item}></ShopItem>
